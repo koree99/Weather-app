@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(img/weather1.jpg);
+    background-size: cover;
+    max-width: 100%;
+}
+h1 {
+    color:rgb(10, 228, 239);
+    font-size: 3.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 4%;
+}
+label {
+    color:rgb(49, 213, 221);
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    margin-top: 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input {
+    width: 30%;
+    margin-left: 35%;
+    padding: 0.5%;
+    border: 1px solid rgb(159, 175, 189);
+    border-radius: 5px;
+}
+.cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.d-none {
+    display: none;
+}
+.card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.icon {
+    position: relative;
+    border-radius: 50px;
+    background-color:rgb(245, 248, 252);
+    width: 100px;
+    top: -50px;
+    margin: auto;
+}
+.details {
+    margin-top: -120px;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 20%;
+    text-align: center;
+    color: rgb(136, 150, 162);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+span {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-size: auto;
+    }
+    h1 {
+        font-size: 2.5rem;
+        margin-top: 15%;
+    }
+    label {
+        font-size: 1rem;
+    }
+    input {
+        width: 80%;
+        margin-left: 10%;
+        padding: 2%;
+    }
+    .cont {
+        margin-top: 13%;
+    }
+    .card {
+      width: 70%;
+    }
+    .card img {
+        width: 100%;
+    }
+    h3 {
+        margin-top: 15%;
+    }
+}
